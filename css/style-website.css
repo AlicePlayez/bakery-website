@@ -1,0 +1,390 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya', serif;
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+body{
+    background-color: whitesmoke;
+    padding-top: 70px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+nav .img-div{
+    width: 20%;
+    float: left;
+    background-color: transparent;
+}
+
+nav .img-div img{
+    width: 90%;
+    background-color: transparent;
+}
+
+nav .menu{
+    float: right;
+}
+
+nav .menu ul{
+    list-style: none;
+}
+
+nav .menu ul li{
+    display: inline-block;
+    margin: 20px 5px;
+}
+
+nav .menu ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    text-decoration: none;
+}
+
+nav .menu ul li a:hover{
+    color: black;
+}
+
+nav .menu ul li .active{
+    color: black;
+}
+
+
+/* nav .pop-up{
+    display: hidden;
+} */
+
+/* .show:hover ul li .pop-up{
+    display: block;
+} */
+
+main{
+    background-image: url(../img/main.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+main .container .text p{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+main .container .text .t{
+    font-size: 50;
+    color: white;
+    margin-top: 150;
+}
+
+main .container .text .w{
+    font-size: 40;
+    color: white;
+    margin-top:50;
+}
+
+main .container .button1 a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    background-color: #8e7754;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+main .container .button1{
+    margin-top: 5px;
+    display: inline-block;
+    background-color: transparent;
+
+}
+
+main .container .button1 a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+
+main .container .button2 a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+main .container .button2{
+    margin-top: 100px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+
+
+main .container .button2 a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+main .ball{
+    margin-top: 40px;
+}
+
+main .ball a{
+    margin-top: 20px;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 0px 7px;
+    border-radius: 14px;
+    height: 70px;
+    display: inline-block;
+}
+
+.section1{
+    background-color: white;
+    padding: 50px;
+}
+
+.image1{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 70px;
+}
+
+.image1 img{
+    width: 90%;
+    margin: 50px;
+}
+
+.section1{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 70px;
+}
+
+.section1 h3{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.section1 p.info{
+    margin-bottom: 30px;
+}
+
+.section1 p{
+    color: gray;
+    display: inline-block;
+    margin: 20px;
+}
+
+.section1 .circle{
+    padding: 10px 15px;
+    border: 1px solid silver;
+    border-radius: 50%;
+}
+
+.image2{
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding: 70px;
+}
+
+.image2 img{
+    width: 90%;
+    margin: 50px;
+}
+
+.location{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding: 70px;
+    margin-bottom: 130px;
+}
+
+.location h3{
+    font-size: 32px;
+    margin: 30px;
+}
+
+.location p{
+    color: gray;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+
+
+.our-baking{
+    padding: 20px 0px;
+}
+
+.our-baking .container{
+    width: 70%;
+    margin: auto;
+}
+
+.our-baking .container p{
+    color: silver;
+}
+
+.our-baking .container .title{
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.our-baking .container .title p{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.our-baking .container .imgs{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+
+.title p{
+    color: silver;
+}
+
+.our-baking .container .imgs img{
+    width: 90%  ;
+}
+
+.our-baking .container .imgs p{
+    color: silver;
+    padding: 0px 30px;
+}
+
+.maps{
+    width: 40%;
+    float: left;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.maps iframe{
+    width: 80%;
+}
+
+.section4{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.section4 h3{
+    font-size: 32px;
+    margin: 30px;
+}
+
+.section4 p.info{
+    margin-bottom: 30px;
+}
+
+.section4 p{
+    color: gray;
+    display: inline-block;
+    margin: 20px;
+}
+
+.section4 .circle{
+    padding: 10px 15px;
+    border: 1px solid #8e7754;
+    border-radius: 50%;
+    background-color: #8e7754;
+}
+
+.up{
+    text-decoration: none;
+    padding: 7px 14px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, .3);
+    color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    right: 15px;
+    bottom: 15px; 
+    cursor: pointer;
+    font-size: 15px;
+    /* background-color: black;
+    border: 2px solid gray;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    opacity: 40%;
+    position: fixed;
+    left: 1200px; */
+}
+
+.up a{
+    /* text-decoration: none;
+    color: white; */
+}
+
+
+.up:hover{
+    /* opacity: 100%; */
+    color: #fff;
+    background-color: rgba(0, 0, 0, .8);
+    border-color: #fff;
+}
+
+/* footer{
+    width: 100%;
+    height: 90hv;
+    background-color: #403d38;
+    padding: 40px;
+    text-align: center;
+    color: #969696;
+} */
+
